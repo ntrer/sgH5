@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/secondePage/secondePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/thirdPage/thirdPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fouthPage/fouthPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"tabBar" : {
+	    "color" : "#000000",
+	    "selectedColor" : "#ab3030",
+	    "borderStyle" : "lightgray",
+	    "backgroundColor" : "#F7F7F7",
+	    "list" : [
+	        {
+	            "iconPath" : "static/logo.png",
+	            "selectedIconPath" : "static/logo.png",
+	            "pagePath" : "pages/index/index",
+	            "text" : "第一页"
+	        },
+	        {
+	            "iconPath" : "static/logo.png",
+	            "selectedIconPath" : "static/logo.png",
+	            "pagePath" : "pages/secondePage/secondePage",
+	            "text" : "第二页"
+	        },
+	        {
+	            "iconPath" : "static/logo.png",
+	            "selectedIconPath" : "static/logo.png",
+	            "pagePath" : "pages/thirdPage/thirdPage",
+	            "text" : "第三页"
+	        },
+			{
+			    "iconPath" : "static/logo.png",
+			    "selectedIconPath" : "static/logo.png",
+			    "pagePath" : "pages/fouthPage/fouthPage",
+			    "text" : "第四页"
+			}
+	    ]
+	},
+	
+	
+	"uniIdRouter": {}
+}
